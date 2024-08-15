@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <header>
+
+        <h1>Lista de Contatos</h1>
+
+        <img src ="Imagens/telefone.png" alt="um telefone" />
+
+    </header>
+
+    <form id="cadastro">
+
+        <h3>Adicionar novo contato:</h3>
+
+        <div class="alinhando">
+            <input type="text" id="nome-contato" required placeholder = "Nome" />
+            <input type="number" id="numero-contato"  required placeholder = "Telefone" />
+            <button type="submit">Adicionar +</button>
+        </div>
+
+    </form>
+
+    <table cellspacing="0"  id="tabela">
+
+        <thead>
+            <tr>
+                <th><h4>Nomes</h4></th>
+                <th><h4>Telefones</h4></th>
+            </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+
+    </table>
+    </div>
+    
+    <script src="./main.js"></script>
+
+</body>
+</html>
